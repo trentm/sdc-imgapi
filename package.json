@@ -38,6 +38,7 @@
     "sdc-clients": "10.0.1",
     "semver": "3.0.1",
     "sshpk": "1.10.0",
+    "through2": "2.0.3",
     "trace-event": "1.2.0",
     "ufds": "1.2.0",
     "vasync": "1.6.3",
