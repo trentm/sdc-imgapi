@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'master:true' }
+    agent { label 'multiarch-15.4.1 && 20141030T081701Z' }
 
     environment {
         FOO = 'bar'
@@ -12,7 +12,7 @@ pipeline {
 
     parameters {
         string(name: 'BRANCH', defaultValue: 'master')
-        string(name: 'TRY_BRANCH')
+        string(name: 'TRY_BRANCH', defaultValue: '')
     }
 
     stages {
